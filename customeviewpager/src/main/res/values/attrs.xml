@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <attr name="vp_padding" format="dimension"/>
+    <attr name="vp_margin" format="dimension"/>
+    <attr name="vp_max_offset" format="dimension"/>
+    <attr name="vp_loop" format="boolean" />
+    <attr name="card_ratio" format="float" />
+    
+    <declare-styleable name="CustomCardView" >
+        <attr name="card_ratio" />
+    </declare-styleable>
+    
+    <declare-styleable name="CustomViewPager" >
+        <attr name="vp_padding"/>
+        <attr name="vp_margin"/>
+        <attr name="vp_max_offset" />
+        <attr name="vp_loop" />
+    </declare-styleable>
+
+</resources>
